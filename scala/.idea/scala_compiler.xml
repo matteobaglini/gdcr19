@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ScalaCompilerConfiguration">
+    <profile name="sbt 1" modules="scala" />
+    <profile name="sbt 2" modules="gol">
+      <option name="postfixOps" value="true" />
+      <option name="higherKinds" value="true" />
+      <option name="existentials" value="true" />
+      <option name="deprecationWarnings" value="true" />
+      <option name="uncheckedWarnings" value="true" />
+      <option name="featureWarnings" value="true" />
+      <option name="explainTypeErrors" value="true" />
+      <parameters>
+        <parameter value="-encoding" />
+        <parameter value="UTF-8" />
+        <parameter value="-Ypartial-unification" />
+        <parameter value="-Xfatal-warnings" />
+        <parameter value="-opt-warnings" />
+        <parameter value="-opt:l:inline" />
+        <parameter value="-opt-inline-from:&lt;source&gt;" />
+        <parameter value="-Yrangepos" />
+        <parameter value="-Yno-adapted-args" />
+        <parameter value="-Ywarn-numeric-widen" />
+        <parameter value="-Ywarn-value-discard" />
+        <parameter value="-Ywarn-extra-implicit" />
+        <parameter value="-Ywarn-inaccessible" />
+        <parameter value="-Ywarn-infer-any" />
+        <parameter value="-Ywarn-nullary-override" />
+        <parameter value="-Ywarn-nullary-unit" />
+        <parameter value="-Xsource:2.13" />
+        <parameter value="-Xlint:_,-type-parameter-shadow,-unused" />
+        <parameter value="-Xfuture" />
+      </parameters>
+      <plugins>
+        <plugin path="C:\Users\matteo\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\spire-math\kind-projector_2.12\0.9.10\kind-projector_2.12-0.9.10.jar" />
+        <plugin path="C:\Users\matteo\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\olegpy\better-monadic-for_2.12\0.3.1\better-monadic-for_2.12-0.3.1.jar" />
+      </plugins>
+    </profile>
+  </component>
+</project>
