@@ -4,6 +4,8 @@ lazy val root = (project in file("."))
     version := "0.0.1-SNAPSHOT",
     scalaVersion := "2.12.10",
     libraryDependencies ++= Seq(
+      "org.typelevel" %% "cats-core" % "2.0.0",
+      "org.typelevel" %% "cats-effect" % "2.0.0",
       "org.scalatest" %% "scalatest" % "3.0.8" % "test"
     ),
     addCompilerPlugin("org.spire-math" %% "kind-projector" % "0.9.10"),
