@@ -3,7 +3,6 @@ using Xunit;
 using DeepEqual.Syntax;
 using ApprovalTests;
 using ApprovalTests.Reporters;
-using ApprovalTests.Reporters.Windows;
 
 namespace gol.tests
 {
@@ -27,13 +26,13 @@ namespace gol.tests
 
         [Fact]
         [UseReporter(typeof(VsCodeReporter))]
-        public void TestList()
+        public void ApprovalWorks()
         {
             var foo = new Foo { Bar = "test" };
             Approvals.Verify(foo);
         }
 
-        private class Foo
+        class Foo
         {
             public String Bar { get; set; }
 
